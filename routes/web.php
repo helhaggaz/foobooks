@@ -14,3 +14,12 @@
 Route::get('/', 'WelcomeController');
 Route::get('/book', 'BookController@index');
 Route::get('/book/{title?}', 'BookController@show');
+
+
+Route::get('/test_getpost', function() {
+    return 'Version A';
+});
+
+Route::post('/test_getpost', function() {
+    return 'Version B';
+});
