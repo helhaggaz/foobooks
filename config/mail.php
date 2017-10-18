@@ -2,6 +2,11 @@
 
 return [
 
+
+  'supportEmail' => 'support@elhaggaz.me',
+  'systemEmail' => 'hisham.mansour@gmail.com',
+
+
     /*
     |--------------------------------------------------------------------------
     | Mail Driver
